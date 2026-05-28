@@ -1,2 +1,6 @@
 TODO.md
-
+ROADMAP.md
+.venv/
+__pycache__/
+.pytest_cache/
+app.db

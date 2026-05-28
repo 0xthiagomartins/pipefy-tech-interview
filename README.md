@@ -25,8 +25,22 @@ Projeto em desenvolvimento para teste tecnico.
 
 ## Proximos passos
 
-- inicializar a API com FastAPI
-- modelar persistencia com SQLAlchemy
-- usar SQLite3 local
-- adicionar testes automatizados
-- documentar execucao e exemplos de curl
+- instalar dependencias
+- executar a API localmente
+- implementar os endpoints do teste
+- adicionar testes automatizados obrigatorios
+- documentar exemplos de uso
+
+## Estrutura inicial
+
+```text
+app/
+  __init__.py
+  db.py
+  main.py
+  models.py
+  schemas.py
+tests/
+  test_health.py
+pyproject.toml
+```
